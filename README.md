@@ -1,3 +1,8 @@
+[![Publish to npm on tag](https://github.com/Laasya-online/json-schema-guard/actions/workflows/publish-npm.yml/badge.svg)](https://github.com/Laasya-online/json-schema-guard/actions/workflows/publish-npm.yml)
+[![npm version](https://img.shields.io/npm/v/json-schema-guard)](https://www.npmjs.com/package/json-schema-guard)
+[![Node >= 18](https://img.shields.io/badge/node-%3E%3D18-blue)](#)
+
+
 # json-schema-guard
 
 Validate a JSON file against a JSON Schema (draft 2020-12) using Ajv.
@@ -13,14 +18,12 @@ npm i -g json-schema-guard
 json-schema-guard --json examples/sample.json --schema examples/schema.json
 
 ```
-## Usage
-
-json-schema-guard --json <path/to/file.json> --schema <path/to/schema.json>
-# exit 0 on success; non-zero on failure
-
-
-**Commit** to `main`.
-
+## Quick start
+```bash
+npx json-schema-guard --json examples/sample.json --schema examples/schema.json
+# or (scoped)
+npx @<your-npm-username>/json-schema-guard --json examples/sample.json --schema examples/schema.json
+```
 ---
 
 ## Add examples (useful for testing + README)
