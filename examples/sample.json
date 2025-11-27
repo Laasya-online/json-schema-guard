@@ -1,0 +1,7 @@
+{
+  "target_role": "GenAI Developer",
+  "top_programming_languages": ["Python", "JavaScript", "SQL"],
+  "top_skills": ["RAG", "LangChain", "Vector DBs"],
+  "biggest_skill_gap": "Evaluation and guardrails in production",
+  "notes": "Sample for README and CI"
+}
