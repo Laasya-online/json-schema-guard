@@ -1,0 +1,18 @@
+{
+  "name": "json-schema-guard",
+  "version": "0.1.0",
+  "description": "Tiny CLI to validate a JSON file against a JSON Schema (draft 2020-12) using Ajv.",
+  "bin": { "json-schema-guard": "index.js" },
+  "type": "module",
+  "keywords": ["json", "json-schema", "cli", "validate", "ajv"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/<gh-username>/json-schema-guard.git" },
+  "bugs": { "url": "https://github.com/<gh-username>/json-schema-guard/issues" },
+  "homepage": "https://github.com/<gh-username>/json-schema-guard#readme",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "yargs": "^17.7.2"
+  }
+}
